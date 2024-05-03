@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """My module containa function 'add_integer' that adds two integers"""
 
+
 def add_integer(a, b=98):
     """
     adds two integers.
@@ -18,4 +19,3 @@ def add_integer(a, b=98):
         raise TypeError("b must be an integer")
 
     return int(a) + int(b)
-
